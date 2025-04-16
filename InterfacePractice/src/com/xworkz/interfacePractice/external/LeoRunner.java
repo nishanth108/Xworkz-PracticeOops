@@ -1,0 +1,20 @@
+package com.xworkz.interfacePractice.external;
+
+import com.xworkz.interfacePractice.internal.Leo;
+
+public class LeoRunner implements Leo {
+    @Override
+    public void todaysHoroScope() {
+        System.out.println("Comes with GOod Size");
+    }
+
+    @Override
+    public void luckyNumber() {
+        System.out.println("Comes with 2k ");
+    }
+
+    @Override
+    public void luckyColor() {
+        System.out.println("Comes with GOod Meterial");
+    }
+}
