@@ -15,5 +15,10 @@ public class Air implements com.xworkz.interfacePractice.internal.Air {
     public void coldOrHotAir() {
         System.out.println("cold air  inside the Air runner Class");
     }
+
+    @Override
+    public void breateAir() {
+        System.out.println("Breate air of premium");
+    }
 }
 

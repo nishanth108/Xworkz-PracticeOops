@@ -4,4 +4,7 @@ public interface Belt {
     void size();
     void price();
     void meterial();
+    default  void topOne() {
+        System.out.println("");
+    }
 }

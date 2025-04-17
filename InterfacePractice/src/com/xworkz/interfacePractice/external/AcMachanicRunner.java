@@ -19,5 +19,10 @@ public class AcMachanicRunner implements AcMachanic {
         System.out.println("going to work inside the AcMachanic runner Class");
 
     }
+
+    @Override
+    public void takeHoliday() {
+        System.out.println("Take holiday as much as u want ");
+    }
 }
 

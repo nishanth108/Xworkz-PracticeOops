@@ -4,4 +4,7 @@ public interface Software {
     void name();
     void client();
     void workFlow();
+    default void deploy() {
+        System.out.println("deploy the software");
+    }
 }
