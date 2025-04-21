@@ -17,4 +17,9 @@ public class InstagramRunner implements Instagram {
     public void networth() {
         System.out.println("Comes with GOod Meterial");
     }
+
+    @Override
+    public void addShort() {
+        System.out.println("Adding the short section");
+    }
 }

@@ -17,4 +17,9 @@ public class LanCabelRunner implements LanCabel {
     public void putLan() {
         System.out.println("Comes with GOod Meterial");
     }
+
+    @Override
+    public void takeLan() {
+        System.out.println("taking the lan");
+    }
 }

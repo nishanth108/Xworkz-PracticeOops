@@ -1,2 +1,5 @@
-package com.xworkz.typesOfInheritance.internal;public class Mobile {
+package com.xworkz.typesOfInheritance.internal;
+
+public class Mobile {
+
 }

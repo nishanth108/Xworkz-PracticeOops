@@ -17,4 +17,9 @@ public class FireWallRunner implements FireWall {
     public void networth() {
         System.out.println("Comes with GOod Meterial");
     }
+
+    @Override
+    public void vpn() {
+        System.out.println("Running new features on the firewall");
+    }
 }

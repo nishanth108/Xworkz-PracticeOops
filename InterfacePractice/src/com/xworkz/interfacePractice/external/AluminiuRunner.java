@@ -14,7 +14,12 @@ public class AluminiuRunner implements Aluminium {
     }
 
     @Override
-    public void price() {
-        System.out.println("good Price");
+    public void makePlate() {
+        System.out.println("making a best plate");
     }
+
+    public void breateAir() {
+        System.out.println("Breate air of premium");
+    }
+
 }

@@ -17,4 +17,9 @@ public class SongRunner implements Song {
     public void stopSong() {
         System.out.println("Comes with GOod Meterial");
     }
+
+    @Override
+    public void puase() {
+        System.out.println("Pausing the Song");
+    }
 }

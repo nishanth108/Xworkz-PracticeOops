@@ -17,4 +17,9 @@ public class SamsungRunner implements SamSung {
     public void processor() {
         System.out.println("Comes with GOod Meterial");
     }
+
+    @Override
+    public void newFeature() {
+        System.out.println("Pusing the samsung");
+    }
 }

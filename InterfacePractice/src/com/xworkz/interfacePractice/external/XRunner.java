@@ -17,4 +17,9 @@ public class XRunner implements X {
     public void team() {
         System.out.println("Comes with GOod Meterial");
     }
+
+    @Override
+    public void spamDetection() {
+        System.out.println("RUnning XRunner");
+    }
 }

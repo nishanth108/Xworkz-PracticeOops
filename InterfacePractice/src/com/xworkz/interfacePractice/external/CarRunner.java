@@ -17,4 +17,9 @@ public class CarRunner implements Car {
     public void capacity() {
         System.out.println("Comes with GOod capacity");
     }
+
+    @Override
+    public void newLunch() {
+        System.out.println("launching new Car");
+    }
 }

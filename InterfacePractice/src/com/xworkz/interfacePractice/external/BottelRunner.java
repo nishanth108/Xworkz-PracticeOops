@@ -16,4 +16,10 @@ public class BottelRunner implements Bottel {
     @Override
     public void price() {
         System.out.println("Comes with 10rs");
-    }}
+    }
+
+    @Override
+    public void fillBottel() {
+        System.out.println("Filling the Bottel");
+    }
+}

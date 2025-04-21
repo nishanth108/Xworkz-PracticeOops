@@ -18,4 +18,9 @@ public class IronPipeRunner implements IronPipe {
     public void quality() {
         System.out.println("Comes with GOod Meterial");
     }
+
+    @Override
+    public void strength() {
+        System.out.println("the strngth is adorable");
+    }
 }

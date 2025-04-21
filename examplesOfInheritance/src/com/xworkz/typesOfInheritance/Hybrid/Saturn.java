@@ -1,2 +1,4 @@
-package com.xworkz.typesOfInheritance.Hybrid;public class Saturn {
+package com.xworkz.typesOfInheritance.Hybrid;
+
+public class Saturn extends SolarSystem {
 }

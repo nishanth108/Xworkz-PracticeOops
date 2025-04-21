@@ -17,4 +17,9 @@ public class WaterRunner implements Water {
     public void ml() {
         System.out.println("Comes with GOod Meterial");
     }
+
+    @Override
+    public void quanitiy() {
+        System.out.println("good quantity");
+    }
 }

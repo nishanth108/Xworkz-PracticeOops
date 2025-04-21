@@ -17,4 +17,9 @@ public class RedmiRunner implements Redmi {
     public void processor() {
         System.out.println("Comes with GOod Meterial");
     }
+
+    @Override
+    public void launch() {
+        System.out.println("Launching the application");
+    }
 }

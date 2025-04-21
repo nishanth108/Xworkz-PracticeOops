@@ -19,4 +19,9 @@ public class DoctorRunner implements Doctor {
     public void checkPatient() {
         System.out.println("Comes with GOod Meterial");
     }
+
+    @Override
+    public void buildNewHospital() {
+        System.out.println("Building our own buildings");
+    }
 }

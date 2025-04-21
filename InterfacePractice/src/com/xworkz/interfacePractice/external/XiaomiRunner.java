@@ -17,4 +17,9 @@ public class XiaomiRunner implements Xiaom {
     public void processor() {
         System.out.println("Comes with GOod Meterial");
     }
+
+    @Override
+    public void launch() {
+        System.out.println("Luanching the xiaomi");
+    }
 }

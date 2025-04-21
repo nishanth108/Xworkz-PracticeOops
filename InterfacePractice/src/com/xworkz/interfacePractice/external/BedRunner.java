@@ -17,4 +17,9 @@ public class BedRunner implements Bed {
     public void meterial() {
         System.out.println("Comes with GOod Meterial");
     }
+
+    @Override
+    public void comfort() {
+        System.out.println("Giving good Comport");
+    }
 }

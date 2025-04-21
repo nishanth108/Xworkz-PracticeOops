@@ -16,4 +16,10 @@ public class DanceRunner implements Dance {
     @Override
     public void perform() {
         System.out.println("Comes with GOod Meterial");
-    }}
+    }
+
+    @Override
+    public void performOnStage() {
+        System.out.println("Promising on ");
+    }
+}

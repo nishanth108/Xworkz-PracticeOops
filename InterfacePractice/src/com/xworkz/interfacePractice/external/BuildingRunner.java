@@ -17,4 +17,9 @@ public class BuildingRunner implements Building {
     public void capacity() {
         System.out.println("Comes with GOod Capacity");
     }
+
+    @Override
+    public void upScaling() {
+        System.out.println("Upscaling the building structure");
+    }
 }

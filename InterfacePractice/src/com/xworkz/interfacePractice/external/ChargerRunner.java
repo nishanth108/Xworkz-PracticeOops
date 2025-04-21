@@ -17,4 +17,9 @@ public class ChargerRunner implements Charger {
     public void capacity() {
         System.out.println("Comes with GOod Meterial");
     }
+
+    @Override
+    public void type() {
+        System.out.println("C type or more");
+    }
 }

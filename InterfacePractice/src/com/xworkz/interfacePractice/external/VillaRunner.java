@@ -17,4 +17,9 @@ public class VillaRunner implements Villa {
     public void location() {
         System.out.println("Comes with GOod Meterial");
     }
+
+    @Override
+    public void buyVilla() {
+        System.out.println("Buying villa");
+    }
 }

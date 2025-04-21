@@ -17,4 +17,9 @@ public class LibraRunner implements Libra {
     public void luckyColor() {
         System.out.println("Comes with GOod Meterial");
     }
+
+    @Override
+    public void horoScope() {
+        System.out.println("having a better horoscope");
+    }
 }

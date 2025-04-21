@@ -17,4 +17,9 @@ public class AntiVirusRunner implements AntiVirus {
     public void virusDetected() {
         System.out.println("Virus Detected take action");
     }
+
+    @Override
+    public void subscription() {
+        System.out.println("Get subscription ");
+    }
 }

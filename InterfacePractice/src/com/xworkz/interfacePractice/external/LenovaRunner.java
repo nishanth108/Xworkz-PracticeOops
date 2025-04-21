@@ -17,4 +17,9 @@ public class LenovaRunner implements Lenovo {
     public void processor() {
         System.out.println("Comes with GOod Meterial");
     }
+
+    @Override
+    public void launch() {
+        System.out.println("launching the lenova ");
+    }
 }

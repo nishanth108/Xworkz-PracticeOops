@@ -17,4 +17,9 @@ public class PepoleRunner implements Pepole {
     public void character() {
         System.out.println("Comes with GOod Meterial");
     }
+
+    @Override
+    public void population() {
+        System.out.println("THe population is high");
+    }
 }

@@ -1,2 +1,4 @@
-package com.xworkz.typesOfInheritance.Hybrid;public class Moon {
+package com.xworkz.typesOfInheritance.Hybrid;
+
+public class Moon extends Earth {
 }

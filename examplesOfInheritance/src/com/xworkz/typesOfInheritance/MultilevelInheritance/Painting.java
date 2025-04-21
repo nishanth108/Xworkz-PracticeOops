@@ -1,2 +1,4 @@
-package com.xworkz.typesOfInheritance.MultilevelInheritance;public class Painting {
+package com.xworkz.typesOfInheritance.MultilevelInheritance;
+
+public class Painting extends Engine{
 }

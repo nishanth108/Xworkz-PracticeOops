@@ -17,4 +17,9 @@ public class AsusRunner implements Asus {
     public void processor() {
         System.out.println("SnapDragon Processing");
     }
+
+    @Override
+    public void mobileLaunch() {
+        System.out.println("Launching the Mobile");
+    }
 }

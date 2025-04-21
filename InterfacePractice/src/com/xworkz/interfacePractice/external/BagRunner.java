@@ -18,4 +18,9 @@ public class BagRunner implements Bag {
     public void size() {
         System.out.println("Comes With Good Quality");
     }
+
+    @Override
+    public void companyChange() {
+        System.out.println("Changing company for better service");
+    }
 }

@@ -1,2 +1,4 @@
-package com.xworkz.typesOfInheritance.internal;public class WashingMachine {
+package com.xworkz.typesOfInheritance.internal;
+
+public class WashingMachine {
 }

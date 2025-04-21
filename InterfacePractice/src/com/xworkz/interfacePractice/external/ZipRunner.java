@@ -17,4 +17,9 @@ public class ZipRunner implements Zip {
     public void makeZip() {
         System.out.println("Comes with GOod Meterial");
     }
+
+    @Override
+    public void rename() {
+        System.out.println("renaming the zip");
+    }
 }

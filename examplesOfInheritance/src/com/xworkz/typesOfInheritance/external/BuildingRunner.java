@@ -1,2 +1,6 @@
-package com.xworkz.typesOfInheritance.external;public class BuildingRunner {
+package com.xworkz.typesOfInheritance.external;
+
+import com.xworkz.typesOfInheritance.internal.Building;
+
+public class BuildingRunner extends Building {
 }

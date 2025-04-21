@@ -17,4 +17,9 @@ public class BeltRunner implements Belt {
     public void meterial() {
         System.out.println("Comes with GOod Meterial");
     }
+
+    @Override
+    public void topOne() {
+        System.out.println("Building top one Belt");
+    }
 }

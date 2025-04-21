@@ -17,4 +17,9 @@ public class SchootyRunner implements Schooty {
     public void milege() {
         System.out.println("Comes with GOod Meterial");
     }
+
+    @Override
+    public void electric() {
+        System.out.println("Running schooty");
+    }
 }

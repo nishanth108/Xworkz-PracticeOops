@@ -17,4 +17,9 @@ public class PocoRunner implements Poco {
     public void processor() {
         System.out.println("Comes with GOod Meterial");
     }
+
+    @Override
+    public void version() {
+        System.out.println("The version is old");
+    }
 }

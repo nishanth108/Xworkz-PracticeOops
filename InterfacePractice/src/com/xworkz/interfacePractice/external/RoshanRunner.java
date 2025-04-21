@@ -17,4 +17,9 @@ public class RoshanRunner implements Roshan {
     public void character() {
         System.out.println("Comes with GOod Meterial");
     }
+
+    @Override
+    public void pushCode() {
+        System.out.println("Pusing the code");
+    }
 }

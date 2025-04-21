@@ -17,4 +17,9 @@ public class CarpetRunner implements Carper {
     public void style() {
         System.out.println("Comes with GOod Style");
     }
+
+    @Override
+    public void shape() {
+        System.out.println("providing circle shape");
+    }
 }

@@ -224,11 +224,17 @@ public class MainRunner {
         sheet.quality();
 
 
-        ShopKeeper shopKeeper = new ShopKeeperRunner();
-
+        ShopKeeper shopKeeper1 = new ShopKeeperRunner();
+        shopKeeper1.shopClose();
+        shopKeeper1.shopName();
+        shopKeeper1.shopOwner();
+        shopKeeper1.itemPrice();
 
         Poco poco = new PocoRunner();
-
+        poco.processor();
+        poco.ram();
+        poco.price();
+        poco.version();
 
         Poco poco = new PocoRunner();
 

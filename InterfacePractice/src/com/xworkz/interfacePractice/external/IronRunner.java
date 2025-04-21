@@ -17,4 +17,9 @@ public class IronRunner implements Iron {
     public void strgnth() {
         System.out.println("Comes with GOod Meterial");
     }
+
+    @Override
+    public void bend() {
+        System.out.println("u can bend the iron");
+    }
 }

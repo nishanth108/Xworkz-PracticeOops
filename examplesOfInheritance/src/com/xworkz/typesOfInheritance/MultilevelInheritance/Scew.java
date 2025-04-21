@@ -1,2 +1,4 @@
-package com.xworkz.typesOfInheritance.MultilevelInheritance;public class Scew {
+package com.xworkz.typesOfInheritance.MultilevelInheritance;
+
+public class Scew extends Painting {
 }

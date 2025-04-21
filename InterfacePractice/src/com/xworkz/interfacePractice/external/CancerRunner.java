@@ -17,4 +17,9 @@ public class CancerRunner implements Cancer {
     public void personality() {
         System.out.println("Comes with GOod personality");
     }
+
+    @Override
+    public void horoScope() {
+        System.out.println("Check on our beloved website");
+    }
 }

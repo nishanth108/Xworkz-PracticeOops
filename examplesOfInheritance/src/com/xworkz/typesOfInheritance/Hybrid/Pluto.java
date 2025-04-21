@@ -1,2 +1,4 @@
-package com.xworkz.typesOfInheritance.Hybrid;public class Pluto {
+package com.xworkz.typesOfInheritance.Hybrid;
+
+public class Pluto extends SolarSystem {
 }

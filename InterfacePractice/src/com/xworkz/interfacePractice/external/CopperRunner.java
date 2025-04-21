@@ -17,4 +17,9 @@ public class CopperRunner implements Copper {
     public void usage() {
         System.out.println("Comes with GOod Meterial");
     }
+
+    @Override
+    public void use() {
+        System.out.println("Usecase are more");
+    }
 }

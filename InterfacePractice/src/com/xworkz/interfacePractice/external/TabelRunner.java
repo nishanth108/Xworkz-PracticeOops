@@ -17,4 +17,9 @@ public class TabelRunner implements Tabel {
     public void meterial() {
         System.out.println("Comes with GOod Meterial");
     }
+
+    @Override
+    public void bend() {
+        System.out.println("Bending the Tabel");
+    }
 }

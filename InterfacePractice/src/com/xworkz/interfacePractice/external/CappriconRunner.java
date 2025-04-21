@@ -17,4 +17,9 @@ public class CappriconRunner implements Cappricon {
     public void personality() {
         System.out.println("Comes with GOod personality");
     }
+
+    @Override
+    public void horoScope() {
+        System.out.println("see on our website");
+    }
 }

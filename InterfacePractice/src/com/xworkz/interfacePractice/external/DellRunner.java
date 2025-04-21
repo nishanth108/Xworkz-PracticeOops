@@ -17,4 +17,9 @@ public class DellRunner implements Dell {
     public void processor() {
         System.out.println("Comes with GOod Meterial");
     }
+
+    @Override
+    public void launch() {
+        System.out.println("Launching the product");
+    }
 }

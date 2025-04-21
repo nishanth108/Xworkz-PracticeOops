@@ -5,6 +5,6 @@ import com.xworkz.abstractPractice.internal.Bike;
 public class Runner {
 
     BikeShop bike = new BikeShop();
-    bike.changeExhaust();
+
 
 }

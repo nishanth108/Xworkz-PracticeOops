@@ -17,4 +17,9 @@ public class AriesRunner implements Aries {
     public void signNature() {
         System.out.println("Fire Nature");
     }
+
+    @Override
+    public void detailOf2025() {
+        System.out.println("Be happy and do  what you like iam with you");
+    }
 }

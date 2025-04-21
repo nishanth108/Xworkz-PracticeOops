@@ -17,4 +17,9 @@ public class VivoRunner implements Vivo {
     public void processor() {
         System.out.println("Comes with GOod Meterial");
     }
+
+    @Override
+    public void launch() {
+        System.out.println("Launching the vivo pro ultimate");
+    }
 }

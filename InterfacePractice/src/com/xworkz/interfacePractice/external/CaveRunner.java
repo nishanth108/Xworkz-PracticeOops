@@ -17,4 +17,9 @@ public class CaveRunner implements Cave {
     public void exitCave() {
         System.out.println("Comes with GOod Meterial");
     }
+
+    @Override
+    public void extendCave() {
+        System.out.println("Extending the cave");
+    }
 }

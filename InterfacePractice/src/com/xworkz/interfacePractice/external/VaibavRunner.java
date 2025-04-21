@@ -17,4 +17,9 @@ public class VaibavRunner implements Vaibav {
     public void character() {
         System.out.println("Comes with GOod Meterial");
     }
+
+    @Override
+    public void pushCode() {
+        System.out.println("Running vaibav on screen");
+    }
 }

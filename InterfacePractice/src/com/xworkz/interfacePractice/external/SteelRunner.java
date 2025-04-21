@@ -17,4 +17,9 @@ public class SteelRunner implements Steel {
     public void price() {
         System.out.println("Comes with GOod Meterial");
     }
+
+    @Override
+    public void shape() {
+        System.out.println("Running the steel");
+    }
 }

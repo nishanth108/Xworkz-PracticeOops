@@ -1,2 +1,4 @@
-package com.xworkz.typesOfInheritance.internal;public class Laptop {
+package com.xworkz.typesOfInheritance.internal;
+
+public class Laptop {
 }

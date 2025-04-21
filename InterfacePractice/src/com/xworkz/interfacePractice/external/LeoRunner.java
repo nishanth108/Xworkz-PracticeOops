@@ -17,4 +17,9 @@ public class LeoRunner implements Leo {
     public void luckyColor() {
         System.out.println("Comes with GOod Meterial");
     }
+
+    @Override
+    public void horoScope() {
+        System.out.println("Good life");
+    }
 }

@@ -17,4 +17,9 @@ public class DataAnalyticsRunner implements DataAnalytics {
     public void Responsibility() {
         System.out.println("Comes with GOod Meterial");
     }
+
+    @Override
+    public void getJob() {
+        System.out.println("got the job");
+    }
 }

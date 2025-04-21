@@ -17,4 +17,9 @@ public class YoutubeRunner implements Youtube {
     public void team() {
         System.out.println("Comes with GOod Meterial");
     }
+
+    @Override
+    public void addShort() {
+        System.out.println("Adding short ");
+    }
 }

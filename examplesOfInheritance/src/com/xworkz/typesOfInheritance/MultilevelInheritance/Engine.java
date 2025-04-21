@@ -1,2 +1,4 @@
-package com.xworkz.typesOfInheritance.MultilevelInheritance;public class Engine {
+package com.xworkz.typesOfInheritance.MultilevelInheritance;
+
+public class Engine extends Welding {
 }

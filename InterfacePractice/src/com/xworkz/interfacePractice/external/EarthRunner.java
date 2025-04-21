@@ -17,4 +17,9 @@ public class EarthRunner implements Earth {
     public void forestAreas() {
         System.out.println("Comes with GOod Meterial");
     }
+
+    @Override
+    public void PureWaterPercentage() {
+        System.out.println("Checking pure water content");
+    }
 }

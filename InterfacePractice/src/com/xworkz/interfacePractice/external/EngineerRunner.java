@@ -17,4 +17,9 @@ public class EngineerRunner implements Engineering {
     public void promotion() {
         System.out.println("Comes with GOod Meterial");
     }
+
+    @Override
+    public void hire() {
+        System.out.println("Hiring engineers");
+    }
 }

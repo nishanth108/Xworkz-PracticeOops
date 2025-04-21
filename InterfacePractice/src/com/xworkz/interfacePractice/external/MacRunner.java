@@ -17,4 +17,9 @@ public class MacRunner implements Mac {
     public void processor() {
         System.out.println("Comes with GOod Meterial");
     }
+
+    @Override
+    public void Launch() {
+        System.out.println("Running Launch on Mac");
+    }
 }

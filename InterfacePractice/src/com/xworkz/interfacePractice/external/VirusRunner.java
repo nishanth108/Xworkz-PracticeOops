@@ -17,4 +17,9 @@ public class VirusRunner implements Virus {
     public void details() {
         System.out.println("Comes with GOod Meterial");
     }
+
+    @Override
+    public void reason() {
+        System.out.println("The reason is non hygenic");
+    }
 }

@@ -17,4 +17,10 @@ public class BikeRunner implements Bike {
     public void cc() {
         System.out.println("Comes with GOod Cc");
     }
+
+    @Override
+    public void newModel() {
+        System.out.println("Coming up with new model of bike");
+    }
+
 }

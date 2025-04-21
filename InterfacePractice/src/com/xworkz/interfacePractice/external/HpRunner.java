@@ -17,4 +17,9 @@ public class HpRunner implements Hp {
     public void processor() {
         System.out.println("Comes with GOod Meterial");
     }
+
+    @Override
+    public void lunch() {
+        System.out.println("Launching the laptop");
+    }
 }

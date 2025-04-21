@@ -17,4 +17,9 @@ public class SoftwareRunner implements Software {
     public void workFlow() {
         System.out.println("Comes with GOod Meterial");
     }
+
+    @Override
+    public void deploy() {
+        System.out.println("Deploying the code");
+    }
 }

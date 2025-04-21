@@ -1,2 +1,4 @@
-package com.xworkz.typesOfInheritance.Hybrid;public class Mars {
+package com.xworkz.typesOfInheritance.Hybrid;
+
+public class Mars extends SolarSystem{
 }

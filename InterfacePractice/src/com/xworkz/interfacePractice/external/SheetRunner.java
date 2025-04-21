@@ -17,4 +17,9 @@ public class SheetRunner implements Sheet {
     public void quality() {
         System.out.println("Comes with GOod Meterial");
     }
+
+    @Override
+    public void quantity() {
+        System.out.println("Running sheet runner");
+    }
 }

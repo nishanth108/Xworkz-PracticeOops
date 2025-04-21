@@ -17,4 +17,9 @@ public class KishanRunner implements Kishan {
     public void doTask() {
         System.out.println("Comes with GOod Meterial");
     }
+
+    @Override
+    public void pushToGit() {
+        System.out.println("Pusing this to git");
+    }
 }

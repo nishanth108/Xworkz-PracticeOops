@@ -1,2 +1,4 @@
-package com.xworkz.typesOfInheritance.internal;public class Plane {
+package com.xworkz.typesOfInheritance.internal;
+
+public class Plane {
 }

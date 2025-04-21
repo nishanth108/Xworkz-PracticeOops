@@ -17,4 +17,9 @@ public class HomeRunner implements Home {
     public void goHome() {
         System.out.println("Comes with GOod Meterial");
     }
+
+    @Override
+    public void sleep() {
+        System.out.println("Running sleep on the home runner");
+    }
 }

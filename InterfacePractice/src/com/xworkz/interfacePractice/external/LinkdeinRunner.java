@@ -17,4 +17,9 @@ public class LinkdeinRunner implements Linkdein {
     public void team() {
         System.out.println("Comes with GOod Meterial");
     }
+
+    @Override
+    public void findJob() {
+        System.out.println("Find job in linkdein");
+    }
 }

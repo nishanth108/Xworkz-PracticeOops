@@ -17,4 +17,9 @@ public class CalculatorRunner implements Calculator {
     public void type() {
         System.out.println("the type of the calculator is scientfic");
     }
+
+    @Override
+    public void includeFeature() {
+        System.out.println("Includeing more features in the machine");
+    }
 }

@@ -1,2 +1,4 @@
-package com.xworkz.typesOfInheritance.MultilevelInheritance;public class Testing {
+package com.xworkz.typesOfInheritance.MultilevelInheritance;
+
+public class Testing extends Fitting{
 }

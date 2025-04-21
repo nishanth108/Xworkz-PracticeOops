@@ -17,4 +17,9 @@ public class FabricRunner implements Fabric {
     public void quality() {
         System.out.println("Comes with GOod Meterial");
     }
+
+    @Override
+    public void employeeSalary() {
+        System.out.println("the salayy is fixed");
+    }
 }

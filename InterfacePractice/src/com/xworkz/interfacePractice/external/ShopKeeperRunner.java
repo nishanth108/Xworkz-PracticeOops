@@ -18,4 +18,9 @@ public class ShopKeeperRunner implements ShopKeeper {
     public void shopOwner() {
         System.out.println("Comes with GOod Meterial");
     }
+
+    @Override
+    public void shopClose() {
+        System.out.println("Closing the shop");
+    }
 }

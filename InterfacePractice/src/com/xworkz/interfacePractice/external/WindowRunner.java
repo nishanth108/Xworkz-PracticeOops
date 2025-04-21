@@ -17,4 +17,9 @@ public class WindowRunner implements Window {
     public void price() {
         System.out.println("Comes with GOod Meterial");
     }
+
+    @Override
+    public void quality() {
+        System.out.println("Comes with good quality");
+    }
 }

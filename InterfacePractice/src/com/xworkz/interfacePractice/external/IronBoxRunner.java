@@ -18,4 +18,9 @@ public class IronBoxRunner implements IronBox {
     public void watt() {
         System.out.println("Comes with GOod Meterial");
     }
+
+    @Override
+    public void matchBox() {
+        System.out.println("Using the matchbox section");
+    }
 }

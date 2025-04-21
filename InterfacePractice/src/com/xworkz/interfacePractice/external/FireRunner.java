@@ -17,4 +17,9 @@ public class FireRunner implements Fire {
     public void todaysHoroscope() {
         System.out.println("Comes with GOod Meterial");
     }
+
+    @Override
+    public void soulmate() {
+        System.out.println("The soulmate suits is of fire sign");
+    }
 }

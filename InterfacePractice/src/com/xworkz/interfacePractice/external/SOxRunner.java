@@ -17,4 +17,9 @@ public class SOxRunner implements Sox {
     public void color() {
         System.out.println("Comes with GOod Meterial");
     }
+
+    @Override
+    public void wear() {
+        System.out.println("Wearing sox");
+    }
 }

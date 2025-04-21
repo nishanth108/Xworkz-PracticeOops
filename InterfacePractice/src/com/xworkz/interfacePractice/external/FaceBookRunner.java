@@ -17,4 +17,9 @@ public class FaceBookRunner implements FaceBook {
     public void networth() {
         System.out.println("Comes with GOod Meterial");
     }
+
+    @Override
+    public void addReel() {
+        System.out.println("Adding reels section");
+    }
 }

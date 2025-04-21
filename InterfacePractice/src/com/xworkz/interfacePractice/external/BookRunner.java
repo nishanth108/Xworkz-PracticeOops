@@ -17,4 +17,9 @@ public class BookRunner implements Book {
     public void publisher() {
         System.out.println("Publisher name is Ramu");
     }
+
+    @Override
+    public void partTwo() {
+        System.out.println("the part two of the book is releasing");
+    }
 }

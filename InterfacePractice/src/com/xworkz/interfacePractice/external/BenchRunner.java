@@ -17,4 +17,9 @@ public class BenchRunner implements Bench {
     public void lifeSpan() {
         System.out.println("Comes with GOod lifeSpan");
     }
+
+    @Override
+    public void sit() {
+        System.out.println("Building a awesome bences");
+    }
 }
