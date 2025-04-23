@@ -1,4 +1,6 @@
 package com.xworkz.practiceJava.internal;
 
-public class KeyBoard {
+public interface KeyBoard {
+    void press();
+
 }
