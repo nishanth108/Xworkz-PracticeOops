@@ -1,4 +1,4 @@
-    package com.xworkz.bankservlet.internal;
+    package com.xworkz.compliant.servlets;
 
     import javax.servlet.GenericServlet;
     import javax.servlet.ServletException;
@@ -8,31 +8,26 @@
     import java.io.IOException;
     import java.io.PrintWriter;
 
+    @WebServlet(urlPatterns = "/comp",loadOnStartup = 1)
+    public class CompliantServlet extends GenericServlet {
 
-    @WebServlet(urlPatterns = "/actor",loadOnStartup = 1)
-    public class JavaServlet extends GenericServlet {
-
-        public JavaServlet() {
-            System.out.println("Tomcat is created the object ");
+        CompliantServlet() {
+            System.out.println("Tomcat just created the CompliantServlet object");
         }
+
         @Override
         public void service(ServletRequest servletRequest, ServletResponse servletResponse) throws ServletException, IOException {
-            System.out.println("Running JavaServlet in ");
 
             String name = servletRequest.getParameter("name");
-            String lang = servletRequest.getParameter("lang");
-            String bb = servletRequest.getParameter("bb");
-            String flp = servletRequest.getParameter("flp");
-            String um = servletRequest.getParameter("um");
-            String umd = servletRequest.getParameter("umd");
-            String umb = servletRequest.getParameter("umb");
+            String age = servletRequest.getParameter("age");
+            String gender = servletRequest.getParameter("gender");
+            String address = servletRequest.getParameter("address");
+            String against = servletRequest.getParameter("against");
+            String complaint = servletRequest.getParameter("complaint");
 
+            int Nage = Integer.parseInt(age);
 
-            int flpCount = Integer.parseInt(flp);
-            int bbCount = Integer.parseInt(bb);
-
-
-            System.out.println("Name: " + name +"language: "+lang +"blockbuster: "+bbCount+"flop: "+flpCount);
+            System.out.println("Name: " + name +"age: "+Nage +"gender: "+gender+"address: "+address+"against: "+address+"complaint:"+complaint);
 
             PrintWriter writer = servletResponse.getWriter();
             writer.println("<html>");
@@ -45,8 +40,6 @@
             writer.println("</head>");
             writer.println("<html>");
             writer.println("<html>");
+
         }
-
-
-
     }
