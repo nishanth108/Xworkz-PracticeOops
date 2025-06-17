@@ -1,0 +1,70 @@
+26-May-2025 09:07:52.790 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.38
+26-May-2025 09:07:52.794 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 10 2020 08:20:30 UTC
+26-May-2025 09:07:52.794 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.38.0
+26-May-2025 09:07:52.794 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+26-May-2025 09:07:52.794 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+26-May-2025 09:07:52.794 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+26-May-2025 09:07:52.794 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\nisha\.jdks\corretto-1.8.0_442\jre
+26-May-2025 09:07:52.795 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_442-b06
+26-May-2025 09:07:52.795 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+26-May-2025 09:07:52.795 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Xworkz-PracticeOops\bankServlet
+26-May-2025 09:07:52.795 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\nisha\Downloads\apache-tomcat-9.0.38-windows-x64\apache-tomcat-9.0.38
+26-May-2025 09:07:52.798 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\nisha\Downloads\apache-tomcat-9.0.38-windows-x64\apache-tomcat-9.0.38
+26-May-2025 09:07:52.798 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Xworkz-PracticeOops\bankServlet
+26-May-2025 09:07:52.798 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Xworkz-PracticeOops\bankServlet\temp
+26-May-2025 09:07:52.798 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Xworkz-PracticeOops\bankServlet\conf\logging.properties
+26-May-2025 09:07:52.798 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+26-May-2025 09:07:52.798 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Users\nisha\Downloads\ideaIC-2024.1.4.win\lib\idea_rt.jar=50992:C:\Users\nisha\Downloads\ideaIC-2024.1.4.win\bin
+26-May-2025 09:07:52.798 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+26-May-2025 09:07:52.803 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+26-May-2025 09:07:52.804 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+26-May-2025 09:07:52.804 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+26-May-2025 09:07:52.811 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+26-May-2025 09:07:53.223 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+26-May-2025 09:07:53.556 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1002] milliseconds
+26-May-2025 09:07:53.603 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+26-May-2025 09:07:53.603 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.38]
+26-May-2025 09:07:53.614 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Xworkz-PracticeOops\bankServlet\conf\Catalina\localhost\ROOT.xml]
+26-May-2025 09:07:53.950 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-May-2025 09:07:53.998 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Xworkz-PracticeOops\bankServlet\conf\Catalina\localhost\ROOT.xml] has finished in [383] ms
+26-May-2025 09:07:54.001 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+26-May-2025 09:07:54.011 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [453] milliseconds
+26-May-2025 09:08:28.688 INFO [Thread-4] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+26-May-2025 09:08:28.908 INFO [Thread-4] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+26-May-2025 09:08:28.918 INFO [Thread-4] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+26-May-2025 09:08:28.956 INFO [Thread-4] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+26-May-2025 09:08:35.057 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.38
+26-May-2025 09:08:35.061 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 10 2020 08:20:30 UTC
+26-May-2025 09:08:35.061 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.38.0
+26-May-2025 09:08:35.061 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+26-May-2025 09:08:35.061 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+26-May-2025 09:08:35.061 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+26-May-2025 09:08:35.061 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\nisha\.jdks\corretto-1.8.0_442\jre
+26-May-2025 09:08:35.062 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_442-b06
+26-May-2025 09:08:35.062 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+26-May-2025 09:08:35.062 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Xworkz-PracticeOops\bankServlet
+26-May-2025 09:08:35.062 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\nisha\Downloads\apache-tomcat-9.0.38-windows-x64\apache-tomcat-9.0.38
+26-May-2025 09:08:35.066 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\nisha\Downloads\apache-tomcat-9.0.38-windows-x64\apache-tomcat-9.0.38
+26-May-2025 09:08:35.066 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Xworkz-PracticeOops\bankServlet
+26-May-2025 09:08:35.066 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Xworkz-PracticeOops\bankServlet\temp
+26-May-2025 09:08:35.066 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Xworkz-PracticeOops\bankServlet\conf\logging.properties
+26-May-2025 09:08:35.066 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+26-May-2025 09:08:35.066 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Users\nisha\Downloads\ideaIC-2024.1.4.win\lib\idea_rt.jar=51005:C:\Users\nisha\Downloads\ideaIC-2024.1.4.win\bin
+26-May-2025 09:08:35.066 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+26-May-2025 09:08:35.072 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+26-May-2025 09:08:35.073 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+26-May-2025 09:08:35.073 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+26-May-2025 09:08:35.079 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+26-May-2025 09:08:35.685 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+26-May-2025 09:08:36.059 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1284] milliseconds
+26-May-2025 09:08:36.100 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+26-May-2025 09:08:36.100 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.38]
+26-May-2025 09:08:36.113 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Xworkz-PracticeOops\bankServlet\conf\Catalina\localhost\ROOT.xml]
+26-May-2025 09:08:36.455 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-May-2025 09:08:36.504 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Xworkz-PracticeOops\bankServlet\conf\Catalina\localhost\ROOT.xml] has finished in [391] ms
+26-May-2025 09:08:36.507 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+26-May-2025 09:08:36.516 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [456] milliseconds
+26-May-2025 09:10:08.136 INFO [Thread-4] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+26-May-2025 09:10:08.345 INFO [Thread-4] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+26-May-2025 09:10:08.358 INFO [Thread-4] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+26-May-2025 09:10:08.392 INFO [Thread-4] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
