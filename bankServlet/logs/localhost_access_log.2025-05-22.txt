@@ -1,0 +1,6 @@
+0:0:0:0:0:0:0:1 - - [22/May/2025:08:48:32 +0530] "GET / HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [22/May/2025:08:48:32 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [22/May/2025:08:48:34 +0530] "GET /form.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [22/May/2025:08:48:48 +0530] "GET /actor?name=rices&lang=ma&bb=2&flp=3&um=sddf&umd=fasv&umb=svd HTTP/1.1" 200 100
+0:0:0:0:0:0:0:1 - - [22/May/2025:08:49:35 +0530] "GET /form.html HTTP/1.1" 200 761
+0:0:0:0:0:0:0:1 - - [22/May/2025:08:49:48 +0530] "GET /actor?name=rices&lang=ma&bb=2&flp=3&um=sddf&umd=fasv&umb=svd HTTP/1.1" 200 100

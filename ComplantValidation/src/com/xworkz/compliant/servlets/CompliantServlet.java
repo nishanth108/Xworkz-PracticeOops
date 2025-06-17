@@ -8,7 +8,7 @@
     import java.io.IOException;
     import java.io.PrintWriter;
 
-    @WebServlet(urlPatterns = "/comp",loadOnStartup = 1)
+    @WebServlet(urlPatterns = "/compliant",loadOnStartup = 1)
     public class CompliantServlet extends GenericServlet {
 
         CompliantServlet() {
@@ -32,13 +32,14 @@
             PrintWriter writer = servletResponse.getWriter();
             writer.println("<html>");
             writer.println("<head>");
+
+            writer.println("<body>");
             writer.println("<h1>");
             writer.println(name+"registered succesfully");
             writer.println("</h1>");
-            writer.println("<body>");
             writer.println("</body>");
             writer.println("</head>");
-            writer.println("<html>");
+
             writer.println("<html>");
 
         }
