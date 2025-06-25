@@ -24,4 +24,5 @@ public class ProductDto {
     public String getPassword() {
         return password;
     }
+
 }
